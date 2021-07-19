@@ -1,11 +1,26 @@
 [
   {
-    "type": "field",
-    "outboundTag": "proxy",
+    "outboundTag": "block",
     "domain": [
-      "domain:500px.com",
-      "domain:1x.com",
-      "domain:phonearena.com",
+      "geosite:category-ads-all",
     ]
+  },
+  {
+     "outboundTag": "proxy",
+     "ip": [
+       "geoip:telegram"
+     ],
+     "domain": [
+       "geosite:gfw",
+       /* 在此行下面添加↓ */
+       "domain:500px.com",
+       "domain:1x.com",
+       "domain:phonearena.com"
+       /* 在此行上面添加↑ */
+    ]
+  },
+  {
+    "port": "0-65535",
+    "outboundTag": "direct"
   }
 ]
