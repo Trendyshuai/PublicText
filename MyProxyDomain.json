@@ -1,0 +1,11 @@
+[
+  {
+    "type": "field",
+    "outboundTag": "proxy",
+    "domain": [
+      "domain:500px.com",
+      "domain:1x.com",
+      "phonearena.com"
+    ]
+  }
+]
