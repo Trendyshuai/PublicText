@@ -18,7 +18,8 @@
        "domain:phonearena.com",
        "domain:instagram.com",
        "domain:torrentkitty.net",
-       "domain:arxiv.org"
+       "domain:arxiv.org",
+       "domain:git-scm.com/"
        /* 在此行上面添加↑ */
     ]
   },
