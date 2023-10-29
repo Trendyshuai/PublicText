@@ -12,15 +12,16 @@
      ],
      "domain": [
        "geosite:gfw",
-       /* 在此行下面添加↓ */
        "domain:500px.com",
        "domain:1x.com",
        "domain:phonearena.com",
        "domain:instagram.com",
        "domain:torrentkitty.net",
        "domain:arxiv.org",
-       "domain:git-scm.com/"
-       /* 在此行上面添加↑ */
+       "domain:git-scm.com",
+       "domain:openai.com",
+       "domain:docker.com",
+       "domain:v2raya.org"
     ]
   },
   {
